@@ -1,0 +1,80 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "operator",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "tokenId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "onERC721Received",
+				"outputs": [
+					{
+						"internalType": "bytes4",
+						"name": "",
+						"type": "bytes4"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "Interface of ERC721 token receiver.",
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ERC-721A_flattened.sol": "ERC721A__IERC721Receiver"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ERC-721A_flattened.sol": {
+			"keccak256": "0xec806a3c709e60327e79deaaa3b73942a5294639b5bc574ebb759d0b7a3b3a12",
+			"urls": [
+				"bzz-raw://b4d30921cb4fd9ea1f7c942863ae0ce89c76c1a7e83906549de7cb3b786118b4",
+				"dweb:/ipfs/QmaipAuMjpZeeVq2kSPwhjbPxAdEjw6aYyHfcvr1yh9nPk"
+			]
+		}
+	},
+	"version": 1
+}
